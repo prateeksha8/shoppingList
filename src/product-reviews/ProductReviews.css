@@ -1,0 +1,72 @@
+
+.ProductReviews {
+  max-width: 800px; 
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.ProductReviews h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+
+.ProductReviews ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ProductReviews li {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative; 
+}
+
+
+.ProductReviews textarea {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 100px; 
+  resize: vertical; 
+}
+
+
+.ProductReviews button {
+  background-color: #007bff; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 5px; 
+}
+
+.ProductReviews button:hover {
+  background-color: #0056b3; 
+}
+
+.review-user {
+  font-style: italic;
+  color: #007bff; 
+}
+
+.review-user.verified {
+  color: green; 
+}
+
+
+.ProductReviews .edit-delete-buttons {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
